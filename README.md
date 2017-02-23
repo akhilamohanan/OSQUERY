@@ -15,3 +15,5 @@ cd client
 cmake .
 make
 ./client
+
+(prints content of routes table in json format)

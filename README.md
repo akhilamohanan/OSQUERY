@@ -1,3 +1,7 @@
 Osquery tests
 
-#ADD YOUR COMMENTS HERE#
+create library
+-----------------
+cd create_lib
+cmake .
+make

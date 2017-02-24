@@ -1,0 +1,7 @@
+table_name("demo_users")
+description("Interactive filesystem attributes and metadata.")
+schema([
+    Column("username", TEXT, "username", required=True),
+    Column("directory", TEXT, "Directory of file(s)", required=True),
+])
+implementation("demo_users@genDemousers")

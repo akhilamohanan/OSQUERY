@@ -1,0 +1,7 @@
+table_name("test_ls")
+description("output of ls.")
+schema([
+    Column("file", TEXT, "file/folder in pwd"),
+])
+implementation("test_ls@genTestLs")
+
